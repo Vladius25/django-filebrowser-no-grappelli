@@ -18,6 +18,10 @@
     </a>
 </p>
 {% endif %}
+{% elif value.filetype == "Audio" and value.exists %}
+<p class="preview" id="preview_{{ final_attrs.id }}">
+    <audio id="player" src="{{ value.url }}" controls>Your browser does not support the audio element.</audio>
+</p>
 {% else %}
 <p class="preview" id="preview_{{ final_attrs.id }}" style="display: none;">
     <a href="javascript://" target="_self" id="previewlink_{{ final_attrs.id }}">
