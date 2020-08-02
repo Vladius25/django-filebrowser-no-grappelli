@@ -1,18 +1,7 @@
 Django FileBrowser
 ==================
-.. image:: https://api.travis-ci.org/smacker/django-filebrowser-no-grappelli.svg
-    :target: https://travis-ci.org/smacker/django-filebrowser-no-grappelli
 
-.. image:: https://readthedocs.org/projects/django-filebrowser/badge/?version=latest
-    :target: http://django-filebrowser.readthedocs.org/en/latest/?badge=latest
-
-.. image:: https://img.shields.io/pypi/v/django-filebrowser-no-grappelli.svg
-    :target: https://pypi.python.org/pypi/django-filebrowser-no-grappelli
-
-.. image:: https://img.shields.io/pypi/l/django-filebrowser-no-grappelli.svg
-    :target: https://pypi.python.org/pypi/django-filebrowser-no-grappelli
-
-**Media-Management**. (based on https://github.com/sehmaschine/django-filebrowser)
+**Media-Management**. (based on https://github.com/smacker/django-filebrowser-no-grappelli)
 
 The FileBrowser is an extension to the `Django <http://www.djangoproject.com>`_ administration interface in order to:
 
@@ -28,14 +17,10 @@ FileBrowser 3.8 requires
 * Django 1.11/2.2/3.0 (http://www.djangoproject.com)
 * Pillow (https://github.com/python-imaging/Pillow)
 
-No Grappelli
+**FORK**
 ------------
 
-This fork removes the dependency on Grappelli.
-
-.. figure:: docs/_static/Screenshot.png
-   :scale: 50 %
-   :alt: django filebrowser no grappelli
+This fork adds audio player to admin for audio files.
 
 Installation
 ------------
